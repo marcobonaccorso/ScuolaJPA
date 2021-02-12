@@ -1,0 +1,5 @@
+2021-02-11 14:50:39.189  WARN 9140 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-11 15:34:31.185 DEBUG 2052 --- [main] org.hibernate.SQL                        : create table docente (id bigint not null, cognome varchar(255), nome varchar(255), primary key (id)) engine=InnoDB
+2021-02-11 15:34:31.276 DEBUG 2052 --- [main] org.hibernate.SQL                        : create table hibernate_sequence (next_val bigint) engine=InnoDB
+2021-02-11 15:34:31.318 DEBUG 2052 --- [main] org.hibernate.SQL                        : insert into hibernate_sequence values ( 1 )
+2021-02-11 15:34:33.094  WARN 2052 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
